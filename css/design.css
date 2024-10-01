@@ -1,4 +1,3 @@
-
 @import url("//cdn.web-fonts.ge/fonts/alk-life/css/alk-life.min.css");
 
 *{
@@ -15,6 +14,7 @@ html,
 body {
   position: relative;
   height: 100%;
+ 
 }
 
 
@@ -118,4 +118,37 @@ body{
     position: relative;
     top: -30px;
     margin: 2rem;
+}
+
+
+.card-container{
+display: grid;
+grid-template-columns: auto auto auto auto auto auto;
+place-items: center;
+margin: 10px;
+}
+
+.card{
+  width: 200px;
+  
+  margin: 10px 20px;
+  transition: 0.5s ease;
+  overflow: hidden;
+
+
+}
+
+.card img{
+  transition: 0.5s ease;
+}
+
+.card-container .card img:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+h1{
+  font-family: "ALK Life", sans-serif;
+  margin: 4.5rem;
+  
 }
